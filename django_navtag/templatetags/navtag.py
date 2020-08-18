@@ -1,6 +1,9 @@
 from django import template
-from django.utils import six, safestring
-from django.utils.encoding import smart_str, python_2_unicode_compatible
+from django.utils import safestring
+from django.utils.encoding import smart_str
+
+import six
+from six import python_2_unicode_compatible
 
 
 register = template.Library()
